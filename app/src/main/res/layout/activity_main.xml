@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+
+    <com.jhzl.mindstudy.ui.ArtBoard
+        android:clipChildren="false"
+        android:id="@+id/artboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:id="@+id/test_draw_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试画节点" />
+
+
+</FrameLayout>
